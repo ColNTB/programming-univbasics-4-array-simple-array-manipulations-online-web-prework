@@ -8,5 +8,20 @@ def using_pop(array)
   return array.pop 
 end
 def pop_with_args(array)
-  return array.pop
+  secL = array.pop 
+  l = array.pop 
+  return secL && l 
+end 
+def using_shift(array)
+  return array.shift 
+end 
+def shift_with_args(array)
+  return array.shift
+end 
+def using_concat(array1,array2)
+  array1.concat(array2)
+end
+def using_insert(array, element)
+  array.insert()
+  
   
